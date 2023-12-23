@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: row;
+  
+    section {
+      flex: 3;
+    }
+    section:last-child {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  .counter {
+    padding: 10px;
+  
+    .counter-controls {
+      display: inline-block;
+      margin-left: 10px;
+  
+      button {
+        margin-right: 4px;
+      }
+    }
+  }
+  
+  ol.instructions {
+    list-style-type: decimal;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  
+    li {
+      margin-bottom: 1rem;
+  
+      ol {
+        margin-top: 0.5rem;
+        margin-left: 2.5rem;
+        list-style-type: decimal;
+      }
+    }
+  }
+  
+  
